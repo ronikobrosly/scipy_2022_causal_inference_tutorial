@@ -1,0 +1,13 @@
+causal-curve
+causalgraphicalmodels
+DoubleML
+ipykernel
+jupyterlab
+matplotlib
+notebook
+numpy
+pandas
+scikit-learn
+scipy
+seaborn
+statsmodels

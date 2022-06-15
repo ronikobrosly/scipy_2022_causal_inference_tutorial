@@ -47,7 +47,7 @@ Now that you've installed `graphviz` and cloned the repo locally, you'll need to
 
 #### Option 1: installing via `pip install` in a virtual `virtualenv`
 
-Create a new virtual environment for this tutorial [using this guide]([https://realpython.com/python-virtual-environments-a-primer/#using-virtual-environments](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/)). Note, you'll need python version `3.6+` for this tutorial. 
+Create a new virtual environment for this tutorial [using this guide](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/). Note, you'll need python version `3.6+` for this tutorial. 
 
 Name your environment `intro-to-causal-inference`
 

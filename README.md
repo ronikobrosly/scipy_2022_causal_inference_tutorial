@@ -42,12 +42,12 @@ If you are less comfortable with `git`, there is an easy alternative: [You can s
 
 ### Determine your installation preference
 
-Now that you've installed `graphviz` and cloned the repo locally, you'll need to ensure you have a working python environment set up. There are two paths to creating the python environment for this tutorial. Note: if you already have installed and are using Anaconda python please skip to Option 2. 
+Now that you've installed `graphviz` and cloned the repo locally, you'll need to ensure you have a working python environment set up. There are two paths to creating the python environment for this tutorial. **Note: if you already have installed and are using Anaconda python on your laptop please use Option 2.**
 
 
 #### Option 1: installing via `pip install` in a virtual `virtualenv`
 
-Create a new virtual environment for this tutorial [using this guide](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/). Note, you'll need python version `3.6+` for this tutorial. 
+Create a new virtual environment for this tutorial. You can do this a number of ways but one of the simpler involves the use of the `virtualenv` python package. If you are a Windows or Linux user, please [use this guide](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/). If you are a MacOS user [you can follow this guide](https://sourabhbajaj.com/mac-setup/Python/virtualenv.html). **Note, you'll need python version `3.6+` for this tutorial.**
 
 Name your environment `intro-to-causal-inference`
 
@@ -63,7 +63,7 @@ while within your virtual environment. You can do so by running `python check_en
 #### Option 2: installing via Anaconda python and the `conda` package manager
 
 If you do not already have the [Anaconda distribution](https://www.anaconda.com/download/) of Python 3,
-please install it. Note, you'll need python version `3.6+` for this tutorial. 
+please install it. **Note, you'll need python version `3.6+` for this tutorial.**
 
 You can then use the `conda` tool in your terminal to install the necessary packages:
 

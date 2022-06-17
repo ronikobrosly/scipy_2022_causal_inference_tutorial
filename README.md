@@ -22,10 +22,10 @@ A introduction to causal inference using common tools from the python data stack
 You'll need `graphviz` for our first exercise notebook, to visualize causal graphs.
 
 - Linux:
-  - Depending on your distro, [here are the possible commands](https://graphviz.org/download/#linux) 
-- MacOS: 
+  - Depending on your distro, [here are the possible commands](https://graphviz.org/download/#linux)
+- MacOS:
   - You can easily install it via [homebrew](https://docs.brew.sh/Installation): `brew install graphviz`
-- Windows: 
+- Windows:
   - The graphviz.org website [has convenient installers for you](https://graphviz.org/download/#windows)
 
 
@@ -42,12 +42,14 @@ If you are less comfortable with `git`, there is an easy alternative: [You can s
 
 ### Determine your installation preference
 
-Now that you've installed `graphviz` and cloned the repo locally, you'll need to ensure you have a working python environment set up. There are two paths to creating the python environment for this tutorial. **Note: if you already have installed and are using Anaconda python on your laptop please use Option 2.**
+Now that you've installed `graphviz` and cloned the repo locally, you'll need to ensure you have a working python environment set up. There are two ways you can go about doing this, shown as Options 1 and 2 below.
+
+**Note: if you already have installed and are using Anaconda python on your laptop please use Option 2. In addition, you're going to need python version `3.6+` for this tutorial and this guide assumes you already have it installed.**
 
 
-#### Option 1: installing via `pip install` in a virtual `virtualenv`
+#### Option 1: installing via `pip install` in a `virtualenv`
 
-Create a new virtual environment for this tutorial. You can do this a number of ways but one of the simpler involves the use of the `virtualenv` python package. If you are a Windows or Linux user, please [use this guide](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/). If you are a MacOS user [you can follow this guide](https://sourabhbajaj.com/mac-setup/Python/virtualenv.html). **Note, you'll need python version `3.6+` for this tutorial.**
+Create a new virtual environment for this tutorial. You can do this a number of ways but one of the simpler involves the use of the `virtualenv` python package. If you are a Windows or Linux user, please [use this guide](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/). If you are a MacOS user [you can follow this guide](https://sourabhbajaj.com/mac-setup/Python/virtualenv.html).
 
 Name your environment `intro-to-causal-inference`
 
@@ -63,7 +65,7 @@ while within your virtual environment. You can do so by running `python check_en
 #### Option 2: installing via Anaconda python and the `conda` package manager
 
 If you do not already have the [Anaconda distribution](https://www.anaconda.com/download/) of Python 3,
-please install it. **Note, you'll need python version `3.6+` for this tutorial.**
+please install it.
 
 You can then use the `conda` tool in your terminal to install the necessary packages:
 
@@ -88,12 +90,12 @@ Once the above is complete, you'll need to run the following commands:
 
 In the terminal, execute `jupyter lab`.
 
-Navigate to the `notebooks` directory and open your notebook of choice.
+Navigate to the `notebooks` directory and open your notebook of choice. You will probably be asked which environment you would like to use with the notebook. Select the `Python (intro-to-causal-inference)` environment you created in the step above. 
 
 
 ## Acknowledgements
 
-I would like to like to acknowledgement the following individuals for creating public causal inference 
+I would like to like to acknowledgement the following individuals for creating public causal inference
 materials that were useful in the creation of this tutorial:
 
 - Konstantinos Papadopoulos @ [Analytics Mayhem](https://analyticsmayhem.com/)
@@ -103,4 +105,3 @@ materials that were useful in the creation of this tutorial:
 
 I love would to hear your feedback on these tutorial materials!
 Please send your comments to <roni.kobrosly@gmail.com>.
-

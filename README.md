@@ -51,7 +51,7 @@ Now that you've installed `graphviz` and cloned the repo locally, you'll need to
 
 Create a new virtual environment for this tutorial. You can do this a number of ways but one of the simpler involves the use of the `virtualenv` python package. If you are a Windows or Linux user, please [use this guide](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/). If you are a MacOS user [you can follow this guide](https://sourabhbajaj.com/mac-setup/Python/virtualenv.html).
 
-Name your environment `intro-to-causal-inference`
+Name your environment `causal_modeling`
 
 "Activate" this environment (see the above guide) and then run the following command in the root folder of this repo:
 `pip install -r requirement.txt`
@@ -73,7 +73,7 @@ You can then use the `conda` tool in your terminal to install the necessary pack
 
 "Activate" the new environment via:
 
-`conda activate intro-to-causal-inference`
+`conda activate causal_modeling`
 
 As an optional step, you can try to run the `check_environment.py` file (in the root folder of the repo)
 while within your virtual environment. You can do so by running `python check_environment.py` in your terminal. It will alert you if you're missing any required python packages.
@@ -83,14 +83,14 @@ while within your virtual environment. You can do so by running `python check_en
 
 Once the above is complete, you'll need to run the following commands:
 
-`python -m ipykernel install --user --name intro-to-causal-inference --display-name "Python (intro-to-causal-inference)"`
+`python -m ipykernel install --user --name causal_modeling --display-name "Python (causal_modeling)"`
 
 
 ### Start up jupyter lab and open a notebook
 
 In the terminal, execute `jupyter lab`.
 
-Navigate to the `notebooks` directory and open your notebook of choice. You will probably be asked which environment you would like to use with the notebook. Select the `Python (intro-to-causal-inference)` environment you created in the step above. 
+Navigate to the `notebooks` directory and open your notebook of choice. You will probably be asked which environment you would like to use with the notebook. Select the `Python (causal_modeling)` environment you created in the step above. 
 
 
 ## Acknowledgements

@@ -44,7 +44,7 @@ If you are less comfortable with `git`, there is an easy alternative: [You can s
 
 Now that you've installed `graphviz` and cloned the repo locally, you'll need to ensure you have a working python environment set up. There are two ways you can go about doing this, shown as Options 1 and 2 below.
 
-**Note: if you already have installed and are using Anaconda python on your laptop please use Option 2. In addition, you're going to need python version `3.6+` for this tutorial and this guide assumes you already have it installed.**
+**Note: if you already have installed and are using Anaconda python on your laptop please use Option 2. In addition, you're going to need python version `3.9.x` for this tutorial and this guide assumes you already have it installed.**
 
 
 #### Option 1: installing via `pip install` in a `virtualenv`

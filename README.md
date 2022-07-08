@@ -42,9 +42,11 @@ If you are less comfortable with `git`, there is an easy alternative: [You can s
 
 ### Determine your installation preference
 
-Now that you've installed `graphviz` and cloned the repo locally, you'll need to ensure you have a working python environment set up. There are two ways you can go about doing this, shown as Options 1 and 2 below.
+Now that you've installed `graphviz` and cloned the repo locally, you'll need to ensure you have a working python environment set up. There are two ways you can go about doing this, shown as Options 1 and 2 below. Option 1 is the preferred method, as it is more likely to work across all platforms.
 
-**Note: if you already have installed and are using Anaconda python on your laptop please use Option 2. In addition, you're going to need python version `3.9.x` (e.g. `3.9.1` or `3.9.6` or `3.9.11`, but not `3.10.1`)  for this tutorial and this guide assumes you already have it installed.**
+If you already have installed and are using Anaconda python on your laptop please use Option 2.
+
+**This tutorial requires python version `3.9.x` (e.g. `3.9.1` or `3.9.6` or `3.9.11` etc.) for the notebook exercises to properly work.**
 
 
 #### Option 1: installing via `pip install` in a `virtualenv`
@@ -67,9 +69,13 @@ while within your virtual environment. You can do so by running `python check_en
 If you do not already have the [Anaconda distribution](https://www.anaconda.com/download/) of Python 3,
 please install it.
 
-You can then use the `conda` tool in your terminal to install the necessary packages:
+The next step depends on what platform you are using: 1) Mac and Linux vs 2) Windows
 
-`conda env create -f conda_env.yml`
+**Mac and Linux**:
+
+You can then use the `conda` tool in your terminal to install the necessary packages via this command:
+
+`conda env create -f conda_env_mac.yml`
 
 "Activate" the new environment via:
 
@@ -77,6 +83,33 @@ You can then use the `conda` tool in your terminal to install the necessary pack
 
 As an optional step, you can try to run the `check_environment.py` file (in the root folder of the repo)
 while within your virtual environment. You can do so by running `python check_environment.py` in your terminal. It will alert you if you're missing any required python packages.
+
+**Windows**:
+
+You can then use the `conda` tool in your terminal to install the necessary packages via this command:
+
+`conda env create -f conda_env_windows.yml`
+
+"Activate" the new environment via:
+
+`conda activate causal_modeling`
+
+As an optional step, you can try to run the `check_environment.py` file (in the root folder of the repo)
+while within your virtual environment. You can do so by running `python check_environment.py` in your terminal. It will alert you if you're missing any required python packages.
+
+**If the above Anaconda methods do not work**:
+
+You may have to create your own python 3.9.x environment using the `conda` command:
+
+`conda create --name causal_modeling python=3.9`
+
+"Activate" the new environment via:
+
+`conda activate causal_modeling`
+
+And then you'll pip install all dependencies within this environment
+
+`pip install -r requirements.txt`
 
 
 ### Install a new IPython kernelspec
@@ -90,7 +123,7 @@ Once the above is complete, you'll need to run the following commands:
 
 In the terminal, execute `jupyter lab`.
 
-Navigate to the `notebooks` directory and open your notebook of choice. You will probably be asked which environment you would like to use with the notebook. Select the `Python (causal_modeling)` environment you created in the step above. 
+Navigate to the `notebooks` directory and open your notebook of choice. You will probably be asked which environment you would like to use with the notebook. Select the `Python (causal_modeling)` environment you created in the step above.
 
 
 ## Acknowledgements

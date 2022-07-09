@@ -71,8 +71,7 @@ please install it.
 
 The next step depends on what platform you are using: 1) Mac and Linux vs 2) Windows
 
-Mac and Linux:
--------------
+**Mac and Linux**:
 
 You can then use the `conda` tool in your terminal to install the necessary packages via this command:
 
@@ -85,8 +84,7 @@ You can then use the `conda` tool in your terminal to install the necessary pack
 As an optional step, you can try to run the `check_environment.py` file (in the root folder of the repo)
 while within your virtual environment. You can do so by running `python check_environment.py` in your terminal. It will alert you if you're missing any required python packages.
 
-Windows:
--------
+**Windows**:
 
 You can then use the `conda` tool in your terminal to install the necessary packages via this command:
 
@@ -99,8 +97,7 @@ You can then use the `conda` tool in your terminal to install the necessary pack
 As an optional step, you can try to run the `check_environment.py` file (in the root folder of the repo)
 while within your virtual environment. You can do so by running `python check_environment.py` in your terminal. It will alert you if you're missing any required python packages.
 
-If the above Anaconda methods do not work:
------------------------------------------
+**If the above Anaconda methods do not work**:
 
 You may have to create your own python 3.9.x environment using the `conda` command:
 

@@ -46,7 +46,7 @@ Now that you've installed `graphviz` and cloned the repo locally, you'll need to
 
 If you already have installed and are using Anaconda python on your laptop please use Option 2.
 
-**This tutorial requires python version `3.9.x` (e.g. `3.9.1` or `3.9.6` or `3.9.11` etc.) for the notebook exercises to properly work.**
+**This tutorial requires python version `3.9` for the notebook exercises to properly work.**
 
 
 #### Option 1: installing via `pip install` in a `virtualenv`

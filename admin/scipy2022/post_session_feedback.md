@@ -14,7 +14,7 @@
 * Some of the second exercise notebook was clearly causing confusion among participants
 	* Some feedback was to add clearer markdown comment cells above each code cell better describing what the following cell was going to accomplish. Specifically for the matching pieces
 * Double check PSM-adjusted result and how it varies between when doing 1:1 matching, 1:n matching, and IPW weighting. Consider just
-* Add better transition between Exercise 1 and PSM explanation. Explain how we're going to assume that we have a valid set of confounders going forward, and find good ways to control for them.
+* Add better transition between Exercise 1 and PSM explanation. Explain that now that we know the four types of causal relationships and how we're going to assume that we have a valid set of confounders going forward, and find good ways to control for them. Going to assume you're not including colliders, mediators, and unrelated predictors going forward. 
 * Better explain what it means to "control" for covariates. Explain the stratification method (which we do in exercise 1), and explain how we can control for covariates in more complex model.
 
 

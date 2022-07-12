@@ -6,7 +6,7 @@
 	* On Macbooks: Intel-libraries not working on M1 Apple chipsets
 	* Some windows specific packages related to graphviz
 
-* Consider using [Binder](https://mybinder.org/) to put the notebooks entirely in the cloud and so the notebooks become platform-agnostic. I don't think Docker will help here. Or perhaps ditch graphviz and causal graph plotting and just provide attendees with what the causal graph should look like, instead of having students create their own plots.
+* Consider using [Binder](https://mybinder.org/) or [Colab](https://colab.research.google.com/?utm_source=scs-index) to put the notebooks entirely in the cloud and so the notebooks become platform-agnostic. I don't think Docker will help here. Or perhaps ditch graphviz and causal graph plotting and just provide attendees with what the causal graph should look like, instead of having students create their own plots.
 
 
 ## Making Content Easier to Consume / Understand
